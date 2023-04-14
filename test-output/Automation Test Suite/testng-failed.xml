@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Sauce.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Order Items Test Cases(failed)">
+    <classes>
+      <class name="com.Sauce.testcases.orderItemTest">
+        <methods>
+          <include name="orderTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Sauce.testcases.orderItemTest -->
+    </classes>
+  </test> <!-- Order Items Test Cases(failed) -->
+</suite> <!-- Failed suite [Automation Test Suite] -->

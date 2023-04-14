@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.Sauce.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Order Items Test Cases">
+		<classes>
+			<class name="com.Sauce.testcases.orderItemTest"></class>
+		</classes>
+	</test>
+	
+</suite>
